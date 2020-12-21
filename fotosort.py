@@ -37,6 +37,7 @@ class FotoSortApp(QtWidgets.QMainWindow, main_window.Ui_MainWindow):
         """Initializes GUI and connects actions to specific buttons and checkboxes."""
         super(FotoSortApp, self).__init__()
         self.setupUi(self)
+        self.setWindowIcon(QtGui.QIcon('camera.ico'))
 
         self.files = []
         self.path_dir = ''
@@ -52,9 +53,11 @@ class FotoSortApp(QtWidgets.QMainWindow, main_window.Ui_MainWindow):
         self.about = QtWidgets.QDialog()
         ui = dialog_about.Ui_Dialog()
         ui.setupUi(self.about)
+        self.about.setWindowIcon(QtGui.QIcon('camera.ico'))
         self.settings = settings.Settings()
         self.settings.setupUi(self.settings)
         self.settings.init()
+        self.settings.setWindowIcon(QtGui.QIcon('camera.ico'))
 
         # connect actions
         self.button_clear.clicked.connect(self.clear)
