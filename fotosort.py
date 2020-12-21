@@ -50,6 +50,8 @@ class FotoSortApp(QtWidgets.QMainWindow, main_window.Ui_MainWindow):
 
         # settings and about dialogs initialization
         self.about = QtWidgets.QDialog()
+        ui = dialog_about.Ui_Dialog()
+        ui.setupUi(self.about)
         self.settings = settings.Settings()
         self.settings.setupUi(self.settings)
         self.settings.init()
@@ -71,6 +73,17 @@ class FotoSortApp(QtWidgets.QMainWindow, main_window.Ui_MainWindow):
         if len(sys.argv) >= 2:
             self.open_with_path = ' '.join(sys.argv[1:])
             self.open_with(self.open_with_path)
+
+        # close opened dialogs when Quit button triggered
+        self.action_quit.triggered.connect(self.settings.close)
+        self.action_quit.triggered.connect(self.about.close)
+        self.action_quit.triggered.connect(self.close)
+
+    def closeEvent(self, event: QtGui.QCloseEvent) -> None:
+        """Overloads upper-class function to close opened dialogs before quiting the app """
+        event.accept()
+        self.settings.close()
+        self.about.close()
 
     def dragEnterEvent(self, event: QtGui.QDragEnterEvent) -> None:
         """Accepts drag event if contains urls."""
@@ -526,9 +539,9 @@ class FotoSortApp(QtWidgets.QMainWindow, main_window.Ui_MainWindow):
 
     def show_about(self) -> None:
         """Shows 'About' dialog window"""
-        self.about = QtWidgets.QDialog()
-        ui = dialog_about.Ui_Dialog()
-        ui.setupUi(self.about)
+        # self.about = QtWidgets.QDialog()
+        # ui = dialog_about.Ui_Dialog()
+        # ui.setupUi(self.about)
         self.about.show()
 
 
