@@ -2,7 +2,7 @@
 
 Desktop GUI application which main function is to rename JPEG photos and video files by prepending date/time (of taking a photo or video) in front of the original filename. This helps to sort media files chronologically by a filename. Program allows also to modify file date/time information if needed.
 
-![Screenshot from 2020-12-21 12-09-54](https://user-images.githubusercontent.com/24280216/102771050-7bb36d80-4385-11eb-94da-a67227a3c73a.png)
+![fotosort](https://user-images.githubusercontent.com/24280216/102830282-493b5c00-43e9-11eb-8279-17702ae44881.png)
 
 #### Table of Contents
 1) [Motivation](#motivation)
@@ -11,10 +11,7 @@ Desktop GUI application which main function is to rename JPEG photos and video f
 4) [Running the application](#running-the-application)
     * [Windows](#windows)
     * [Linux](#linux)
-5) [Repository guidelines](#repository-guidelines)
-6) [State of work](#state-of-work)
-
-
+5) [State of work](#state-of-work)
 
 ## Motivation
 The idea of this application arose while organizing photos from some trip during which the photos were taken by different people with different cameras (mobile phones or standalone cameras). We wanted to display photos chronologically, however when some photos were modified (e.g. rotated, retouched etc.) it was not a good solution to sort them by date. Thus, we decided to prepend the date/time of taking a photo to the original filename. This information is retrieved from JPEG Exif data.
@@ -36,7 +33,6 @@ It offers the following features:
 ## How it works?
 First step is adding photo and/or video files that we want to rename or modify date. We can do it either by Drag&Drop (works on both files and directories) or Browse for a directory containing media files (click on <i>File->Choose folder...</i>).
 
-
 1) <b>RENAME files example:</b>
 
 * Before RENAME:
@@ -47,7 +43,6 @@ First step is adding photo and/or video files that we want to rename or modify d
    </tr>
 </table>
 
-
 * After RENAME:
 <table style="width:100%">
    <tr>
@@ -55,7 +50,6 @@ First step is adding photo and/or video files that we want to rename or modify d
       <td><img src=https://user-images.githubusercontent.com/24280216/102768095-e1e9c180-4380-11eb-87a7-38fa8aa6950e.png></td>
    </tr>
 </table>
-
 
 2) <b>MODIFY DATE example:</b>
 <table style="width:100%">
@@ -92,9 +86,6 @@ The application was prepared for Windows and Linux operating systems. It was tes
 TODO
 
 ### Linux
-TODO
-
-## Respository guidelines
 TODO
 
 ## State of work
