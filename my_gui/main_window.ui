@@ -34,7 +34,7 @@
      <widget class="QGroupBox" name="groupBox_table">
       <property name="font">
        <font>
-        <pointsize>9</pointsize>
+        <pointsize>11</pointsize>
        </font>
       </property>
       <property name="title">
@@ -47,7 +47,7 @@
           <widget class="QCheckBox" name="checkBox_subfolders">
            <property name="font">
             <font>
-             <pointsize>9</pointsize>
+             <pointsize>10</pointsize>
             </font>
            </property>
            <property name="text">
@@ -75,6 +75,11 @@
              <height>25</height>
             </size>
            </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
            <property name="text">
             <string>CLEAR</string>
            </property>
@@ -92,6 +97,11 @@
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
          </property>
          <property name="acceptDrops">
           <bool>true</bool>
@@ -198,7 +208,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>9</pointsize>
+        <pointsize>10</pointsize>
        </font>
       </property>
       <property name="title">
@@ -467,6 +477,11 @@
                <height>25</height>
               </size>
              </property>
+             <property name="font">
+              <font>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
              <property name="text">
               <string>Simulate</string>
              </property>
@@ -491,6 +506,11 @@
                <width>111</width>
                <height>25</height>
               </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>11</pointsize>
+              </font>
              </property>
              <property name="text">
               <string>MODIFY DATE</string>
@@ -524,6 +544,11 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
            <property name="text">
             <string>DATE FROM FILENAME</string>
            </property>
@@ -538,7 +563,7 @@
      <widget class="QGroupBox" name="groupBox_rename">
       <property name="font">
        <font>
-        <pointsize>9</pointsize>
+        <pointsize>11</pointsize>
        </font>
       </property>
       <property name="focusPolicy">
@@ -629,7 +654,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>9</pointsize>
+     <pointsize>10</pointsize>
     </font>
    </property>
   </action>
@@ -639,7 +664,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>9</pointsize>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="shortcut">
@@ -652,7 +677,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>9</pointsize>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="shortcut">
@@ -665,7 +690,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>9</pointsize>
+     <pointsize>10</pointsize>
     </font>
    </property>
   </action>
@@ -675,7 +700,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>9</pointsize>
+     <pointsize>10</pointsize>
     </font>
    </property>
   </action>
