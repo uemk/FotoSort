@@ -5,4 +5,5 @@ venv/
 build/
 dist/
 *.sh
+!pyinstaller.sh
 *.desktop
