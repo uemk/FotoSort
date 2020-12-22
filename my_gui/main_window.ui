@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>635</width>
-    <height>608</height>
+    <height>606</height>
    </rect>
   </property>
   <property name="font">
@@ -100,7 +100,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>11</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="acceptDrops">
@@ -116,7 +116,7 @@
           <bool>true</bool>
          </attribute>
          <attribute name="verticalHeaderDefaultSectionSize">
-          <number>30</number>
+          <number>35</number>
          </attribute>
          <attribute name="verticalHeaderStretchLastSection">
           <bool>true</bool>
@@ -618,7 +618,7 @@
      <x>0</x>
      <y>0</y>
      <width>635</width>
-     <height>23</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
