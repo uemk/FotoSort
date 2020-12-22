@@ -83,10 +83,22 @@ Application also allows to configure accepted file extensions (default - all 'ch
 The application was prepared for Windows and Linux operating systems. It was tested on Windows 10 and should work well also on previous Windows versions. It was also tested on Ubuntu and should work well on all Debian-based Linux systems.
 
 ### Windows
-TODO
+Download and un-zip Windows Executable archive (<i>fotosort.zip</i>) provided in <a href="https://github.com/uemk/FotoSort/releases/">releases</a>.
+Double-click on stand-alone portable executable file <i>fotosort.exe</i>.
 
 ### Linux
-TODO
+   1) Option 1:
+   
+      * Clone or download FotoSort github respository (or source code archive provided in <a href="https://github.com/uemk/FotoSort/releases/">releases</a>)
+      * Install the requirements provided in <i>requirements.txt</i>
+      * Then, run in shell: ./fotosort.py (file must have executable rights: chmod a+x fotosort.py) 
+   
+   2) Option 2 (preferred):
+      * Download and un-pack Linux Executable archive (<i>fotosort.tar.gz</i>) provided in <a href="https://github.com/uemk/FotoSort/releases/">releases</a>
+      * Run in shell: ./fotosort or alternatively run ./install.sh to make the application seen by the system (to revert this operation ./uninstall.sh should be launched). Then, it is possible to start the app by double-click on Desktop fotosort icon (or by just typing <i>fotosort</i> in the shell)
+   
 
 ## State of work
-TODO
+First stable version released: <a href="https://github.com/uemk/FotoSort/releases/tag/v1.0.0">FotoSort-v1.0.0</a>.
+
+For the moment there is no plan on further application development.
